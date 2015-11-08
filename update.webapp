@@ -1,0 +1,11 @@
+{
+  "name": "Quick Access",
+  "description": "Adds quick access functionalities in Firefox OS quick settings, like navigation to gallary, make call, send sms, mail & add new Contact. This Addon is Based on Quick Setting Addon",
+  "developer": {
+    "name": "Kumar Rishav"
+  },
+  "package_path": "package.zip",
+  "icons": {
+    "128": "icons/quick_access.png"
+  }
+}

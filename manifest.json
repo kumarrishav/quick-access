@@ -1,0 +1,16 @@
+{
+  "manifest_version": 1,
+  "name": "Quick Access",
+  "description": "Adds functionalities, like navigation to gallary, make call, send sms, mail & add new Contact in Firefox OS quick settings.",
+  "version": "1.0",
+  "author": "Kumar Rishav",
+  "package_path": "package.zip",
+  "content_scripts": [{
+    "matches": "app://system.gaiamobile.org/index.html",
+    "css": [],
+    "js": ["index.js"]
+  }],
+  "icons": {
+    "128": "icons/quick_access.png"
+  }
+}
